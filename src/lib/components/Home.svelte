@@ -1,0 +1,1 @@
+<h1 class="text-3xl font-extrabold dark:text-black">Welcome to SvelteKit</h1>
