@@ -1,5 +1,6 @@
 <script>
   import { page } from "$app/stores";
+  import { base } from "$app/paths";
 
   /**
    * @param {string} input
@@ -11,6 +12,7 @@
   const childTitle = capitalizeFirstLetter(
     $page?.url?.pathname?.slice(1).split("/")[0]
   );
+
 </script>
 
 <svelte:head>
@@ -24,21 +26,21 @@
       alt="favicon"
       width="50px"
     />
-    <a class="navbar-brand" href="/"><strong>Gowtham Sankar</strong></a>
+    <a class="navbar-brand" href="{base}/"><strong>Gowtham Sankar</strong></a>
 
-    <a class="navbar-brand" href="/" style="font-size:20px;">
+    <a class="navbar-brand" href="{base}/" style="font-size:20px;">
       &#8195; &#8195; &#8195; &#8195; &#8195; &#8195; &#8195; Home</a
     >
     <div class="dropdown">
-      <a class="navbar-brand" href="/about" style="font-size:20px;">
+      <a class="navbar-brand" href="{base}/about" style="font-size:20px;">
         &#8195; ↓ About</a
       >
       <div class="dropdown-content">
-        <a href="/about/first">→ SMS - Page</a>
-        <a href="/about/second">→ CMS - Page</a>
+        <a href="{base}/about/first">→ SMS - Page</a>
+        <a href="{base}/about/second">→ CMS - Page</a>
       </div>
     </div>
-    <a class="navbar-brand" href="/services" style="font-size:20px;">
+    <a class="navbar-brand" href="{base}/services" style="font-size:20px;">
       &#8195; Services</a
     >
   </nav>

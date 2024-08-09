@@ -50,3 +50,23 @@ You can preview the production build with `npm run preview`.
 To close the dev server, hit ```Ctrl-C```
 
 Stuck? Visit us at https://svelte.dev/chat
+
+## Install the Adapter
+
+Ensure that you have installed the @sveltejs/adapter-static package. You can do this by running the following command in your project directory:
+
+```
+npm install --save-dev @sveltejs/adapter-static
+```
+
+## Update SvelteKit
+
+It's possible that you're using an outdated version of SvelteKit that doesn't include the export you're trying to use. Update SvelteKit to the latest version by running
+
+```
+npm install @sveltejs/kit@latest
+
+npm install svelte-preprocess
+
+add -D @sveltejs/adapter-static
+```
