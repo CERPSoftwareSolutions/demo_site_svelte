@@ -1,1 +1,1 @@
-<h1>First Page</h1>
+<h1>SMS - Page</h1>

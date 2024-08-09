@@ -36,3 +36,17 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Install more integrations with:
+  ```npx svelte-add```
+
+## Next steps:
+  ```
+  1: npm install
+  2: git init && git add -A && git commit -m "Initial commit" (optional)
+  3: npm run dev -- --open
+  ```
+
+To close the dev server, hit ```Ctrl-C```
+
+Stuck? Visit us at https://svelte.dev/chat

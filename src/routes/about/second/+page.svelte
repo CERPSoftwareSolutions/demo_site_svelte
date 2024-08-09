@@ -1,1 +1,1 @@
-<h1>Secound Page</h1>
+<h1>CMS - Page</h1>
